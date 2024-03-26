@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    margin: 20px 0;
+    /* padding: 5px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    cursor: pointer;
+}
+
+.right ul {
+    display: flex;
+    gap: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+
+
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.right ul li:hover {
+    background-color: rgb(196, 196, 196);
+    padding: 5px;
+    border-radius: 10px;
+    color: aqua;
+}
+
+.right ul li span {
+    padding: 5px;
+}
+
+main {
+    margin: 0 150px;
+}
+
+.first-box h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    gap: 10px;
+}
+
+.second-box h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    font-weight: 400;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 55px;
+
+    text-align: center;
+}
+
+.box-btn {
+    text-align: center;
+    margin: 50px 25vw;
+    padding: 20px;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: #00B6D1;
+    cursor: pointer;
+}
+
+.box-btn a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.box-btn a:hover {
+    color: black;
+}
+
+.third-box h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding: 35px 55px;
+}
+
+.third-box h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.third-box h3 a:hover {
+    color: red;
+}
+
+
+.card{
+    margin: 15px;
+    width: 320px;
+    height: 180px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.card h3{
+    padding:35px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.download-btn a{
+    padding:8px 12px ;
+    
+    background-color: #00B6D1;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.download-btn a:nth-child(2){
+    background-color: rgb(0, 183, 0);
+}
+.download-btn a:hover{
+    background-color: #7dd3e0;
+}
+.download-btn a:nth-child(2):hover{
+    background-color: rgb(118, 208, 118);
+}
+.block{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    padding: 40px;
+    
+    /* height: 500px; */
+    background-color: black;
+}
+.Subscribe{
+    margin: 0px 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.newsletter{
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+
+}
+
+.newsletter h2{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.newsletter p{
+    color: white;
+}
+.sub-form{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    padding: 30px 35px;
+    border-radius: 12px;
+}
+.sub-form h3{
+    color: #00B6D1;
+    font-size: 24px;
+    font-weight: 400;
+    margin:0 0 20px 0;
+    
+}
+.sub-form input{
+    height: 50px;
+    width: 100%;
+    margin: 5px 0;
+    border: 1px solid rgb(231, 231, 231);
+}
+.sub-form button{
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #00B6D1;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.sub-form button:hover{
+    background-color: #7dd3e0;
+}
+
+.trial{
+    color: white;
+    margin: 100px 0 0 0;
+    display: flex;
+   
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.trial h2{
+    padding: 10px 0;
+}
+.trial p{
+    padding: 10px 0;
+}
+
+.footer{
+    padding-top: 70px;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+h4{
+    padding-bottom: 20px;
+}
+.div1 ul {
+    list-style: none;
+    
+}
+.div1 ul a{
+    text-decoration: none;
+    color: black;
+}
+.div2 ul {
+    list-style: none;
+    
+}
+.div2 ul a{
+    text-decoration: none;
+    color: black;
+}
+.div3 ul {
+    list-style: none;
+    
+}
+.div3 ul a{
+    text-decoration: none;
+    color: black;
+}
+.div3 ul a{
+    text-decoration: none;
+    color: black;
+}
+.div4{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.div4 input{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border:1px solid #d9d9d9;
+
+    
+
+    
+}
+.div4 button{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #00B6D1;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.div4 button:hover{
+    background-color: #7dd3e0;
+}
+    
+
+.lower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.media-icon a{
+    color: black;
+    font-size: 34px;
+    
+}
+.media-icon a:hover{
+    color: red;
+    font-size: 50px;
+    
+}
+.media-icon{
+    display: flex;
+    gap: 16px
+}
+.copy{
+    margin: 20px 0px 50px 210px;
+    font-size: 14px;
+}
+.scroll-btn{
+    background-color: rgb(0, 182, 209);
+    padding: 17px 30px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50px;
+
+}
+.scroll-btn:hover{
+    background-color: #7dd3e0;
+}
+.scroll-btn a{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}

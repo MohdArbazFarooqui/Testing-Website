@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+</head>
+
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+    :root{
+        --praimary-color: red;
+        --text-color: white;
+        --secondary-color:rgb(253, 209, 209);
+    }
+    /* :root{
+        --praimary-color: rgb(0, 176, 85);
+        --text-color: white;
+        --secondary-color:rgb(172, 251, 211);
+    } */
+    /* :root{
+        --praimary-color: rgb(172, 49, 234);
+        --text-color: white;
+        --secondary-color:rgb(236, 218, 245);
+    } */
+
+    body{
+        background-color: var(--secondary-color);
+    }
+    
+    
+     *{
+        margin: 0;
+        padding: 0;
+    }
+    .nav{
+        
+        padding: 12px 0;
+        background-color: var(--praimary-color);
+    }
+    ul{
+        padding-right: 5px;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    li {
+        list-style: none;
+        font-weight: bolder;
+        color: var(--text-color);
+        /* display: inline; */
+    }
+     a{  
+        
+        text-decoration: none;
+        padding:0 35px;
+        font-family: "Poppins", sans-serif;
+        color: var(--text-color);
+        
+    }
+    /* /////////////////////hover effect/////////////////////// */
+
+    li a:hover{
+        color:rgb(4, 220, 4);
+        text-decoration: underline;
+        
+
+    }
+
+</style>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="Home">Home</a>|</li>
+            <li><a href="About">About</a>|</li>
+            <li><a href="Blog">Blog</a>|</li>
+            <li><a href="Contact">Contact</a>|</li>
+            <li><a href="Services">Services</a></li>
+            
+        </ul>
+    </div>
+</body>
+</html>
